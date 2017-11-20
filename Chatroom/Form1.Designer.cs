@@ -37,7 +37,7 @@
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(528, 321);
+            this.btnSend.Location = new System.Drawing.Point(524, 275);
             this.btnSend.Margin = new System.Windows.Forms.Padding(4);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(100, 26);
@@ -52,7 +52,7 @@
             this.rtbUserMessage.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtbUserMessage.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.rtbUserMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbUserMessage.Location = new System.Drawing.Point(44, 324);
+            this.rtbUserMessage.Location = new System.Drawing.Point(40, 278);
             this.rtbUserMessage.Margin = new System.Windows.Forms.Padding(4);
             this.rtbUserMessage.Name = "rtbUserMessage";
             this.rtbUserMessage.Size = new System.Drawing.Size(443, 26);
@@ -67,7 +67,7 @@
             this.rtbMessageList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rtbMessageList.Cursor = System.Windows.Forms.Cursors.Default;
             this.rtbMessageList.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbMessageList.Location = new System.Drawing.Point(44, 59);
+            this.rtbMessageList.Location = new System.Drawing.Point(40, 13);
             this.rtbMessageList.Margin = new System.Windows.Forms.Padding(4);
             this.rtbMessageList.Name = "rtbMessageList";
             this.rtbMessageList.ReadOnly = true;
@@ -85,7 +85,7 @@
             this.tbUserList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbUserList.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.tbUserList.ForeColor = System.Drawing.SystemColors.Window;
-            this.tbUserList.Location = new System.Drawing.Point(363, 60);
+            this.tbUserList.Location = new System.Drawing.Point(359, 14);
             this.tbUserList.Margin = new System.Windows.Forms.Padding(4);
             this.tbUserList.Multiline = true;
             this.tbUserList.Name = "tbUserList";
@@ -98,7 +98,7 @@
             // 
             // btnDisconnect
             // 
-            this.btnDisconnect.Location = new System.Drawing.Point(528, 364);
+            this.btnDisconnect.Location = new System.Drawing.Point(524, 318);
             this.btnDisconnect.Margin = new System.Windows.Forms.Padding(4);
             this.btnDisconnect.Name = "btnDisconnect";
             this.btnDisconnect.Size = new System.Drawing.Size(100, 32);
@@ -113,7 +113,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(690, 452);
+            this.ClientSize = new System.Drawing.Size(681, 438);
             this.ControlBox = false;
             this.Controls.Add(this.btnDisconnect);
             this.Controls.Add(this.tbUserList);
